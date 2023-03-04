@@ -8,4 +8,4 @@ I would recommend using the `Minecraft-Performance-Flags-Benchmarks` for optimal
 - **Sources for links:** https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
 - **Latest release:** https://cdn.staticaly.com/gh/he3als/GraalVMEnterpriseDownloader/main/GraalVMEnterpriseDownloader.cmd
 
-https://raw.githubusercontent.com/he3als/GraalVMEnterpriseDownloader/main/Demonstration.mp4
+https://user-images.githubusercontent.com/65787561/222928363-58b8915c-ded5-4443-930d-dda586b0cc73.mp4
