@@ -1,8 +1,13 @@
 # GraalVM Downloader
 
-A Windows PowerShell script that grabs the latest versions of the GraalVM JDK from Oracle servers, and automatically extracts them to a specified folder, without an Oracle account.
+A Windows PowerShell script that grabs the latest versions of the GraalVM JDK from Oracle servers, and automatically extracts them to a specified folder, without an Oracle account. Requires PowerShell 5.1.
 
 If your intent is to use Minecraft with GraalVM, I would recommend checking out [`Minecraft-Performance-Flags-Benchmarks`](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) for the optimal JVM arguments.
+
+### Download
+
+- [Releases](https://github.com/he3als/graalvm-downloader/releases)
+- [Latest Direct Download](https://github.com/he3als/graalvm-downloader/releases/download/latest/graalvm-downloader.cmd)
 
 ### Avaliable Versions
 1. [Oracle GraalVM](https://www.graalvm.org/downloads/) Java 20
