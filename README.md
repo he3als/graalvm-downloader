@@ -1,12 +1,18 @@
-# GraalVM Enterprise Downloader
+# GraalVM Downloader
 
-A Windows batch script that gets GraalVM Enterprise Edition (without an Oracle account) and extracts it to your spceified folder.
+A Windows PowerShell script that grabs the latest versions of the GraalVM JDK from Oracle servers, and automatically extracts them to a specified folder, without an Oracle account.
 
-This script sources the latest links for GraalVM Enterprise Edition (EE) for Java 8, 11 and 17 from the `Minecraft-Performance-Flags-Benchmarks` repository, which is linked below.
+If your intent is to use Minecraft with GraalVM, I would recommend checking out [`Minecraft-Performance-Flags-Benchmarks`](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) for the optimal JVM arguments.
 
-I would recommend using the `Minecraft-Performance-Flags-Benchmarks` for optimal JVM arguments for Minecraft.
+### Avaliable Versions
+1. [Oracle GraalVM](https://www.graalvm.org/downloads/) Java 20
+2. [Oracle GraalVM](https://www.graalvm.org/downloads/) Java 17
+3. [GraalVM Enterprise](https://www.graalvm.org/downloads/) Java 11
+   - Usually restricted under having an Oracle account
+5. [GraalVM Enterprise](https://www.graalvm.org/downloads/) Java 8
+   - Usually restricted under having an Oracle account
 
-- **Sources for links:** https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
-- **Latest release:** https://cdn.staticaly.com/gh/he3als/GraalVMEnterpriseDownloader/main/GraalVMEnterpriseDownloader.bat
+### Video Demonstration
 
-https://user-images.githubusercontent.com/65787561/222928473-f6af772e-9495-487c-b80a-021b484d63c1.mov
+https://github.com/he3als/graalvm-downloader/assets/65787561/18591384-ed77-47db-9543-d627110383ff
+
