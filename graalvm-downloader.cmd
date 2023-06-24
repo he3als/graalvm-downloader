@@ -83,7 +83,7 @@ do {
 
 # get latest version number for specified GraalVM version
 $versionsApi = Invoke-WebRequest "https://www.oracle.com/a/tech/docs/graalvm-downloads.json" | ConvertFrom-Json
-$edition = $versionsApi | ForEach-Object { $_.PSObject.Properties } | Where-Object { $_.Value.SubTitle -like "*$release*" } | Sort-Object { $_.Name } -Descending | Select-Object -First 1
+$edition = $versionsApi | ForEach-Object { $_.PSObject.Properties } | Where-Object { $_.Value.SubTitle -like "*$release*" } | Sort-Object { $_.Name } | Select-Object -First 1
 $latestVersion = $edition.Value.Releases | Get-Member -MemberType NoteProperty | Select-Object -ExpandProperty Name -Last 1
 $latestVersionUnderscores = $latestVersion.Replace('.','_')
 
