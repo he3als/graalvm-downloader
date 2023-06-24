@@ -15,7 +15,7 @@ if "%1"=="-ngen" (
 set "psScript=%~f0" & powershell -nop -c "if (Test-Path """env:ngen""") { $ngen = $true }; Get-Content """$env:psScript""" -Raw | iex" & exit /b
 : end batch / begin PowerShell #>
 
-$version = "1.0.0"
+$version = "1.0.1"
 $host.ui.RawUI.WindowTitle = "GraalVM Downloader $version"
 
 function Exit-Prompt {
