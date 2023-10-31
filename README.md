@@ -1,5 +1,7 @@
 # GraalVM Downloader
 
+**Note:** Oracle has removed the endpoints for GraalVM EE, so the GraalVM EE options won't work until I have time to work on this again.
+
 A Windows PowerShell script that grabs the latest versions of the GraalVM JDK from Oracle servers, and automatically extracts them to a specified folder, without an Oracle account. Requires PowerShell 5.1.
 
 If your intent is to use Minecraft with GraalVM, I would recommend checking out [`Minecraft-Performance-Flags-Benchmarks`](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks) for the optimal JVM arguments.
